@@ -17,7 +17,7 @@ import java.util.ArrayList;
 @Controller
 public class HomeController {
 
-    @RequestMapping("/")
+    @RequestMapping
     public ModelAndView homePage() {
         ModelAndView modelAndView = new ModelAndView(); // create ModelAndView then initialize it
         modelAndView.setViewName("home"); // name home refers to home.html file in "src/main/resources/templates/home.html"
