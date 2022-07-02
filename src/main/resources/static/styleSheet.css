@@ -1,0 +1,20 @@
+h1{
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+}
+.title{
+font-size:26px;
+}
+.description{
+font-size:18px;
+}
+.link{
+font-size:15px;
+}
+.pubDate{
+font-size:13px;
+}
+.col-sm{
+border-style: dashed;
+}
