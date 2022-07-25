@@ -1,3 +1,5 @@
+FROM maven AS build
+
 WORKDIR /code
 
 RUN git clone https://github.com/Fares-Saffouri/Jenkins-Closing-Task.git && \
