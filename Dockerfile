@@ -10,7 +10,7 @@ FROM openjdk:17.0.2-oraclelinux8
 
 WORKDIR /app
 
-COPY --from=build /code/target/xmltohtml-0.0.1-SNAPSHOT.jar .
+COPY --from=build **/*.jar .
 
 EXPOSE 8090
 
