@@ -1,3 +1,3 @@
-FROM openjdk:8u342-slim-buster
+FROM openjdk
 COPY target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/demo-0.0.1-SNAPSHOT.jar"]
